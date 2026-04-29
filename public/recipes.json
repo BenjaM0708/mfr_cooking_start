@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "image": "/images/carbonara.jpg",
+    "time": 25,
+    "category": "Pasta",
+    "ingredients": [
+      "400g spaghetti",
+      "200g guanciale or pancetta",
+      "4 large egg yolks",
+      "100g pecorino romano, grated",
+      "Black pepper",
+      "Salt"
+    ],
+    "steps": [
+      "Boil salted water and cook spaghetti until al dente.",
+      "Crisp the guanciale in a dry pan over medium heat.",
+      "Whisk yolks with cheese and plenty of black pepper.",
+      "Toss hot pasta with guanciale off the heat, then add the egg mix and a splash of pasta water. Stir until creamy.",
+      "Serve immediately with extra pecorino on top."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Margherita Pizza",
+    "image": "/images/margherita.jpg",
+    "time": 40,
+    "category": "Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "200g San Marzano tomatoes, crushed",
+      "150g fresh mozzarella",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt"
+    ],
+    "steps": [
+      "Preheat the oven to its highest setting with a pizza stone inside.",
+      "Stretch the dough into a round on a floured surface.",
+      "Spread the crushed tomatoes, season with salt, and tear mozzarella over the top.",
+      "Bake for 6-8 minutes until the crust is blistered and the cheese melts.",
+      "Top with fresh basil and a drizzle of olive oil."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Classic Lasagne",
+    "image": "/images/lasagne.jpg",
+    "time": 90,
+    "category": "Pasta",
+    "ingredients": [
+      "Lasagne sheets",
+      "500g ground beef",
+      "1 onion, diced",
+      "2 cloves garlic",
+      "Tomato sauce",
+      "Bechamel sauce",
+      "Parmesan, grated"
+    ],
+    "steps": [
+      "Brown the beef with onion and garlic, then add tomato sauce and simmer.",
+      "Make the bechamel: butter, flour, milk, salt, nutmeg.",
+      "Layer pasta, meat sauce, bechamel, and parmesan in a baking dish.",
+      "Repeat layers and finish with bechamel and parmesan.",
+      "Bake at 180°C for 40 minutes until golden and bubbling."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Fluffy Pancakes",
+    "image": "/images/pancakes.jpg",
+    "time": 20,
+    "category": "Breakfast",
+    "ingredients": [
+      "200g flour",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "1 egg",
+      "300ml milk",
+      "Butter",
+      "Maple syrup"
+    ],
+    "steps": [
+      "Mix dry ingredients in a bowl.",
+      "Whisk egg and milk together, then fold into the dry mix until just combined.",
+      "Heat a non-stick pan over medium heat with a little butter.",
+      "Pour ladlefuls of batter and cook until bubbles appear, then flip.",
+      "Serve stacked with butter and maple syrup."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Thai Green Curry",
+    "image": "/images/thai-curry.jpg",
+    "time": 35,
+    "category": "Asian",
+    "ingredients": [
+      "500g chicken thigh, sliced",
+      "3 tbsp green curry paste",
+      "400ml coconut milk",
+      "Thai basil leaves",
+      "Fish sauce",
+      "Brown sugar",
+      "Jasmine rice"
+    ],
+    "steps": [
+      "Fry the curry paste in a splash of coconut milk until fragrant.",
+      "Add chicken and stir until coated and starting to cook.",
+      "Pour in the rest of the coconut milk and simmer for 15 minutes.",
+      "Season with fish sauce and a pinch of brown sugar.",
+      "Stir in basil leaves and serve over jasmine rice."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Brownies",
+    "image": "/images/brownies.jpg",
+    "time": 45,
+    "category": "Dessert",
+    "ingredients": [
+      "200g dark chocolate",
+      "150g butter",
+      "200g sugar",
+      "3 eggs",
+      "100g flour",
+      "Pinch of salt",
+      "Optional: walnuts or raspberries"
+    ],
+    "steps": [
+      "Melt chocolate and butter together over a double boiler.",
+      "Whisk eggs and sugar until pale and fluffy.",
+      "Fold the chocolate mix into the eggs, then sift in flour and salt.",
+      "Pour into a lined tin and bake at 170°C for 25-30 minutes.",
+      "Cool before slicing into squares."
+    ]
+  }
+]

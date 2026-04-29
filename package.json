@@ -1,0 +1,26 @@
+{
+  "name": "cooking-blog-start",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n app,test -c cyan,magenta \"vite --open\" \"vitest --ui --watch --open\"",
+    "dev:app": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --watch",
+    "test:ui": "vitest --ui --watch"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/ui": "^4.1.5",
+    "concurrently": "^9.2.1",
+    "vite": "^6.0.0",
+    "vitest": "^4.1.5"
+  }
+}
