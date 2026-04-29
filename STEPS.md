@@ -18,11 +18,21 @@ After wiring it up, restart the dev server (`Ctrl+C`, then `npm run dev`).
 
 ---
 
-## ☐ Goal 2 — Style the recipe cards
+## ☐ Goal 2 — Style the navbar
 
-Open `src/components/RecipeCard.jsx`. The structure is there but no Tailwind classes. Add classes to make each card look like the deployed `final/` version: rounded white container, image filling the top, padding around the title, soft shadow that grows on hover.
+Almost everything is styled now — except the top bar. It's plain unstyled HTML. Open `src/components/Header.jsx` and add Tailwind classes to make it look like the deployed `final/` version: a sticky white bar with a bottom border, the **Recipes** wordmark on the left, and the favorites pill on the right.
 
-✅ **Check**: Hovering over a card lifts it visually. Cards line up in a 3-column grid on desktop.
+This is a small Tailwind exercise to get your hands dirty. Some classes you'll likely want:
+
+- Layout: `flex items-center justify-between`, `max-w-6xl mx-auto`
+- Spacing: `px-6 py-4`, `gap-2`
+- Visual: `bg-white`, `border-b border-slate-200`, `sticky top-0`
+- Typography: `font-bold text-xl`
+- The pill: `rounded-full`, `bg-slate-100`, `px-3 py-1`
+
+The Tailwind docs at **[tailwindcss.com/docs](https://tailwindcss.com/docs)** are open for searching.
+
+✅ **Check**: The header has a white background that sticks to the top when scrolling. "Recipes" is bold on the left. The favorites pill is on the right with a heart, count, and label.
 
 ---
 
