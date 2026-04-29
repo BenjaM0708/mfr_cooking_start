@@ -79,4 +79,4 @@ This one is harder. Two things are broken:
 
 It touches two files and a React concept (controlled inputs) we haven't fully covered yet. Don't worry if you don't finish — you've already learned the main lessons.
 
-✅ **Check**: Typing "pasta" narrows the list to pasta recipes only. Typing nothing shows all 6. **All 4 tests in the dashboard turn green.**
+✅ **Check**: Typing "pasta" narrows the list to pasta recipes only. Typing nothing shows all 6.
