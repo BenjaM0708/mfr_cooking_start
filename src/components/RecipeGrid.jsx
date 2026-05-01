@@ -7,7 +7,7 @@ export default function RecipeGrid({
   onOpen,
 }) {
   const cards = recipes.map((r) => {
-    ;<RecipeCard
+    return <RecipeCard
       recipe={r}
       isFavorite={favorites.includes(r.id)}
       onToggleFav={onToggleFav}
